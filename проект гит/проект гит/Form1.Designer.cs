@@ -32,6 +32,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.buttondev2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -66,11 +67,21 @@
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 3;
             // 
+            // buttondev2
+            // 
+            this.buttondev2.Location = new System.Drawing.Point(215, 268);
+            this.buttondev2.Name = "buttondev2";
+            this.buttondev2.Size = new System.Drawing.Size(75, 23);
+            this.buttondev2.TabIndex = 4;
+            this.buttondev2.Text = "buttondev2";
+            this.buttondev2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(547, 352);
+            this.Controls.Add(this.buttondev2);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
@@ -88,6 +99,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.Button buttondev2;
     }
 }
 
